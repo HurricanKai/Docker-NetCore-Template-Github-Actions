@@ -9,7 +9,6 @@ LABEL "com.github.actions.description"="Make Source available to the VS Dockerfi
 LABEL "com.github.actions.icon"="filter"
 LABEL "com.github.actions.color"="gray-dark"
 COPY LICENSE README.md /
-
-WORKDIR /src
+COPY entrypoint.sh .
 
 ENTRYPOINT ["entrypoint.sh"]
