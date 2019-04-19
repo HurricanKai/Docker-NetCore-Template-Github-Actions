@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp /github/workspace/ .
+cp /github/workspace/ /src
