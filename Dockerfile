@@ -11,4 +11,4 @@ LABEL "com.github.actions.color"="gray-dark"
 COPY LICENSE README.md /
 
 WORKDIR /src
-COPY /github/workspace /
+COPY /github/workspace/* /
