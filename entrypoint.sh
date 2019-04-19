@@ -1,1 +1,1 @@
-cp /github/workspace .
+cp /github/workspace/ .
