@@ -1,0 +1,1 @@
+# Docker-NetCore-Template-Github-Actions
